@@ -6,7 +6,5 @@ my_dict = {
 def makingTuples(dict):
     items = dict.items()
     return items
-    # [(k, v) for k, v in dict.items()]
-    # return
 
 print(makingTuples(my_dict))
