@@ -6,11 +6,11 @@ students = [
      {'first_name' : 'KB', 'last_name' : 'Tonel'}
 ]
 
-def names(dict):
+def names1(dict):
     for i in dict:
         print i['first_name'], i['last_name'] 
 
-names(students)
+names1(students)
 
 # Part II
 users = {
@@ -26,10 +26,10 @@ users = {
   ]
  }
 
-def names(dict):
+def names2(dict):
     for k, v in dict.iteritems():
         print k
         for i, _ in enumerate(v):
-            print i + 1, "=", dict[k][i]['first_name'].upper(), dict[k][i]['last_name'].upper(), "-", len(dict[k][i]['first_name'] + dict[k][i]['last_name'])
+            print i + 1, "=", dict[k][i]['first_name'].upper(), dict[k][i]['last_name'].upper(), "-",len(dict[k][i]['first_name'] + dict[k][i]['last_name'])
 
-names(users)
+names2(users)
