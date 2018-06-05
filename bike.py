@@ -7,7 +7,6 @@ class Bike(object):
         print "The price is $" + str(self.price)
         print "The maximum speed is " + self.max_speed
         print "The total miles are " + str(self.miles)
-        # return self
     def ride(self):
         print "Riding..."
         self.miles += 10
